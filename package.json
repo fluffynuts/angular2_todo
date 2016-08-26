@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 3000",
     "test": "karma start",
     "postinstall": "typings install",
     "clean": "rimraf dist",
@@ -41,7 +41,6 @@
     "lite-server": "^2.2.2",
     "mocha": "^3.0.2",
     "nodemon": "^1.10.2",
-    "prestart": "tsc",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.4",
     "ts-loader": "^0.8.2",
